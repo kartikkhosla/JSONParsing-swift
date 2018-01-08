@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JSONParsing-swift"
   s.version      = "0.0.1"
-  s.summary      = "A short description of JSONParsing-swift."
+  s.summary      = "JSON parser compatible with Cocoa pods and Carthage!!"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+        An easy to use JSON parser compatible with Cocoa pods and Carthage!!!!
                    DESC
 
   s.homepage     = "https://github.com/kartikkhosla/JSONParsing-swift"
@@ -39,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +80,7 @@ s.ios.deployment_target = '9.0'
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # s.source       = { :git => "http://EXAMPLE/JSONParsing-swift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kartikkhosla/JSONParsing-swift.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
