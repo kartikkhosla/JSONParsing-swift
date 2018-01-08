@@ -91,7 +91,7 @@ s.ios.deployment_target = '9.0'
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'JSONParsing/**/*'
+  s.source_files  = 'JSONParsing-swift/**/*'
   # s.exclude_files = "Classes/Exclude"
 
 
